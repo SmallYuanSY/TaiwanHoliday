@@ -290,22 +290,42 @@ class TaiwanHolidayCrawler:
             logger.error(f"下載 {year} 年資料失敗: {e}")
             return False
     
-    def get_target_years(self) -> List[int]:
-        """取得目標年份（當前年份和下一年份）"""
+    def get_target_years(self, download_all: bool = False) -> List[int]:
+        """取得目標年份
+        
+        Args:
+            download_all: 是否下載所有可用年份（預設為False，只下載當前年和下一年）
+        """
+        if download_all:
+            # 下載所有可用年份
+            available_years = self.get_available_years()
+            if available_years:
+                logger.info(f"下載所有可用年份: {available_years}")
+                return available_years
+            else:
+                logger.warning("無法取得可用年份清單，回退到預設模式")
+        
+        # 預設模式：只下載當前年份和下一年份
         current_year = datetime.now().year
         return [current_year, current_year + 1]
     
     def get_known_csv_urls(self) -> Dict[int, str]:
         """已知的CSV下載連結（作為備用方案）"""
         return {
-            # 可以在這裡手動加入已知的連結作為最後備用方案
-            # 2024: "https://www.dgpa.gov.tw/FileConversion?filename=...&name=113年...",
-            # 2025: "https://www.dgpa.gov.tw/FileConversion?filename=...&name=114年...",
+            # 手動加入已知的連結作為最後備用方案
+            2021: "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202407/daec35f0-ae43-4466-aa26-bafb39aa8e0a.csv&nfix=&name=110%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
         }
     
-    def run(self):
-        """執行爬蟲主程式"""
-        logger.info("開始執行台灣政府辦公日曆表爬蟲")
+    def run(self, download_all: bool = False):
+        """執行爬蟲主程式
+        
+        Args:
+            download_all: 是否下載所有可用年份（預設為False）
+        """
+        if download_all:
+            logger.info("🚀 開始執行台灣政府辦公日曆表爬蟲 - 下載所有可用年份")
+        else:
+            logger.info("🚀 開始執行台灣政府辦公日曆表爬蟲 - 維護模式（當前年+下一年）")
         
         # 取得可用年份及其下載連結
         available_data = self.get_available_years_and_urls()
@@ -314,7 +334,7 @@ class TaiwanHolidayCrawler:
             return
         
         # 取得目標年份
-        target_years = self.get_target_years()
+        target_years = self.get_target_years(download_all)
         logger.info(f"目標年份: {target_years}")
         
         # 下載資料
@@ -379,8 +399,19 @@ class TaiwanHolidayCrawler:
 
 def main():
     """主程式進入點"""
+    import sys
+    
+    # 檢查命令列參數
+    download_all = False
+    if len(sys.argv) > 1 and sys.argv[1] == "--all":
+        download_all = True
+        print("🎯 執行模式：下載所有可用年份")
+    else:
+        print("🎯 執行模式：維護模式（當前年+下一年）")
+        print("💡 提示：使用 --all 參數可下載所有可用年份")
+    
     crawler = TaiwanHolidayCrawler()
-    crawler.run()
+    crawler.run(download_all)
 
 if __name__ == "__main__":
     main() 

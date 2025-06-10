@@ -1,6 +1,30 @@
 title: 台灣政府行政機關辦公日曆表摘要
-generated_at: '2025-06-10 12:12:50'
+generated_at: '2025-06-10 12:22:21'
 available_years:
+- year: 2019
+  holidays_count: 115
+  special_working_days_count: 3
+  file: taiwan_holidays_2019.yml
+- year: 2020
+  holidays_count: 115
+  special_working_days_count: 3
+  file: taiwan_holidays_2020.yml
+- year: 2021
+  holidays_count: 116
+  special_working_days_count: 2
+  file: taiwan_holidays_2021.yml
+- year: 2022
+  holidays_count: 115
+  special_working_days_count: 1
+  file: taiwan_holidays_2022.yml
+- year: 2023
+  holidays_count: 116
+  special_working_days_count: 6
+  file: taiwan_holidays_2023.yml
+- year: 2024
+  holidays_count: 115
+  special_working_days_count: 1
+  file: taiwan_holidays_2024.yml
 - year: 2025
   holidays_count: 115
   special_working_days_count: 1

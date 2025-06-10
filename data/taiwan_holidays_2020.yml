@@ -1,468 +1,476 @@
-year: 2025
-generated_at: '2025-06-10 12:22:21'
+year: 2020
+generated_at: '2025-06-10 12:22:20'
 holidays:
-- date: '2025-01-01'
+- date: '2020-01-01'
   weekday: 星期三
   holiday: 1
   name: 開國紀念日
-- date: '2025-01-04'
+- date: '2020-01-04'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-01-05'
+- date: '2020-01-05'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-01-11'
+- date: '2020-01-11'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-01-12'
+- date: '2020-01-12'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-01-18'
+- date: '2020-01-18'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-01-19'
+- date: '2020-01-19'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-01-25'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-01-26'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-01-27'
-  weekday: 星期一
-  holiday: 1
-  name: 小年夜
-- date: '2025-01-28'
-  weekday: 星期二
-  holiday: 1
-  name: 農曆除夕
-- date: '2025-01-29'
-  weekday: 星期三
-  holiday: 1
-  name: 春節
-- date: '2025-01-30'
+- date: '2020-01-23'
   weekday: 星期四
   holiday: 1
-  name: 春節
-- date: '2025-01-31'
+  name: 調整放假
+- date: '2020-01-24'
   weekday: 星期五
   holiday: 1
+  name: 農曆除夕
+- date: '2020-01-25'
+  weekday: 星期六
+  holiday: 1
   name: 春節
-- date: '2025-02-01'
+- date: '2020-01-26'
+  weekday: 星期日
+  holiday: 1
+  name: 春節
+- date: '2020-01-27'
+  weekday: 星期一
+  holiday: 1
+  name: 春節
+- date: '2020-01-28'
+  weekday: 星期二
+  holiday: 1
+  name: 補假
+- date: '2020-01-29'
+  weekday: 星期三
+  holiday: 1
+  name: 補假
+- date: '2020-02-01'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-02-02'
+- date: '2020-02-02'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-02-09'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-02-15'
+- date: '2020-02-08'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-02-16'
+- date: '2020-02-09'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-02-22'
+- date: '2020-02-16'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-02-22'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-02-23'
+- date: '2020-02-23'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-02-28'
+- date: '2020-02-28'
   weekday: 星期五
   holiday: 1
   name: 和平紀念日
-- date: '2025-03-01'
+- date: '2020-02-29'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-03-02'
+- date: '2020-03-01'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-03-08'
+- date: '2020-03-07'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-03-09'
+- date: '2020-03-08'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-03-15'
+- date: '2020-03-14'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-03-16'
+- date: '2020-03-15'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-03-22'
+- date: '2020-03-21'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-03-23'
+- date: '2020-03-22'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-03-29'
+- date: '2020-03-28'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-03-30'
+- date: '2020-03-29'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-04-03'
+- date: '2020-04-02'
   weekday: 星期四
   holiday: 1
   name: 補假
-- date: '2025-04-04'
+- date: '2020-04-03'
   weekday: 星期五
   holiday: 1
+  name: 放假
+- date: '2020-04-04'
+  weekday: 星期六
+  holiday: 1
   name: 兒童節及民族掃墓節
-- date: '2025-04-05'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-04-06'
+- date: '2020-04-05'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-04-12'
+- date: '2020-04-11'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-04-13'
+- date: '2020-04-12'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-04-19'
+- date: '2020-04-18'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-04-20'
+- date: '2020-04-19'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-04-26'
+- date: '2020-04-25'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-04-27'
+- date: '2020-04-26'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-05-03'
+- date: '2020-05-02'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-05-04'
+- date: '2020-05-03'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-05-10'
+- date: '2020-05-09'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-05-11'
+- date: '2020-05-10'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-05-17'
+- date: '2020-05-16'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-05-18'
+- date: '2020-05-17'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-05-24'
+- date: '2020-05-23'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-05-25'
+- date: '2020-05-24'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-05-30'
+- date: '2020-05-30'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-05-31'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-06-06'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-06-07'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-06-13'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-06-14'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-06-21'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-06-25'
+  weekday: 星期四
+  holiday: 1
+  name: 端午節
+- date: '2020-06-26'
+  weekday: 星期五
+  holiday: 1
+  name: 調整放假
+- date: '2020-06-27'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-06-28'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-07-04'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-07-05'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-07-11'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-07-12'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-07-18'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-07-19'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-07-25'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-07-26'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-08-01'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-08-02'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-08-08'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-08-09'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-08-15'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-08-16'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-08-22'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-08-23'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-08-29'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-08-30'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-09-05'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-09-06'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-09-12'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-09-13'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-09-19'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-09-20'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-09-27'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-10-01'
+  weekday: 星期四
+  holiday: 1
+  name: 中秋節
+- date: '2020-10-02'
+  weekday: 星期五
+  holiday: 1
+  name: 調整放假
+- date: '2020-10-03'
+  weekday: 星期六
+  holiday: 1
+  name: 例假日
+- date: '2020-10-04'
+  weekday: 星期日
+  holiday: 1
+  name: 例假日
+- date: '2020-10-09'
   weekday: 星期五
   holiday: 1
   name: 補假
-- date: '2025-05-31'
+- date: '2020-10-10'
   weekday: 星期六
-  holiday: 1
-  name: 端午節
-- date: '2025-06-01'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-06-07'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-06-08'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-06-14'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-06-15'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-06-21'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-06-22'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-06-28'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-06-29'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-07-05'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-07-06'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-07-12'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-07-13'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-07-19'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-07-20'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-07-26'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-07-27'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-08-02'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-08-03'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-08-09'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-08-10'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-08-16'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-08-17'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-08-23'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-08-24'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-08-30'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-08-31'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-09-06'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-09-07'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-09-13'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-09-14'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-09-20'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-09-21'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-09-27'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-09-28'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-10-04'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-10-05'
-  weekday: 星期日
-  holiday: 1
-  name: 例假日
-- date: '2025-10-06'
-  weekday: 星期一
-  holiday: 1
-  name: 中秋節
-- date: '2025-10-10'
-  weekday: 星期五
   holiday: 1
   name: 國慶日
-- date: '2025-10-11'
-  weekday: 星期六
-  holiday: 1
-  name: 例假日
-- date: '2025-10-12'
+- date: '2020-10-11'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-10-18'
+- date: '2020-10-17'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-10-19'
+- date: '2020-10-18'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-10-25'
+- date: '2020-10-24'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-10-26'
+- date: '2020-10-25'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-11-01'
+- date: '2020-10-31'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-11-02'
+- date: '2020-11-01'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-11-08'
+- date: '2020-11-07'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-11-09'
+- date: '2020-11-08'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-11-15'
+- date: '2020-11-14'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-11-16'
+- date: '2020-11-15'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-11-22'
+- date: '2020-11-21'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-11-23'
+- date: '2020-11-22'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-11-29'
+- date: '2020-11-28'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-11-30'
+- date: '2020-11-29'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-12-06'
+- date: '2020-12-05'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-12-07'
+- date: '2020-12-06'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-12-13'
+- date: '2020-12-12'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-12-14'
+- date: '2020-12-13'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-12-20'
+- date: '2020-12-19'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-12-21'
+- date: '2020-12-20'
   weekday: 星期日
   holiday: 1
   name: 例假日
-- date: '2025-12-27'
+- date: '2020-12-26'
   weekday: 星期六
   holiday: 1
   name: 例假日
-- date: '2025-12-28'
+- date: '2020-12-27'
   weekday: 星期日
   holiday: 1
   name: 例假日
 special_working_days:
-- date: '2025-02-08'
+- date: '2020-02-15'
   weekday: 星期六
   holiday: 0
-  note: 補行上班
+  note: 調整上班
+- date: '2020-06-20'
+  weekday: 星期六
+  holiday: 0
+  note: 調整上班
+- date: '2020-09-26'
+  weekday: 星期六
+  holiday: 0
+  note: 調整上班
