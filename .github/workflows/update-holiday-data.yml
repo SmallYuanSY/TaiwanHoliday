@@ -1,0 +1,79 @@
+name: 更新台灣政府辦公日曆表資料
+
+on:
+  # 每個月執行一次（每月1號 UTC 00:00）
+  schedule:
+    - cron: '0 0 1 * *'
+  
+  # 允許手動觸發
+  workflow_dispatch:
+  
+  # 每次推送到main分支時也執行（用於測試）
+  push:
+    branches: [ main ]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 檢出代碼
+      uses: actions/checkout@v4
+      
+    - name: 設置 Python 環境
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 安裝依賴套件
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: 執行爬蟲
+      run: |
+        python taiwan_holiday_crawler.py
+        
+    - name: 檢查是否有新資料
+      id: check_changes
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "有新資料更新"
+          echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "沒有新資料"
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 提交更新的資料
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/*.csv
+        git add crawler.log
+        git commit -m "自動更新台灣政府辦公日曆表資料 - $(date +'%Y-%m-%d %H:%M:%S')"
+        git push
+        
+    - name: 建立發布
+      if: steps.check_changes.outputs.changes == 'true'
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: data-update-${{ github.run_number }}
+        release_name: 資料更新 ${{ github.run_number }}
+        body: |
+          🎉 台灣政府辦公日曆表資料已自動更新！
+          
+          📅 更新時間：${{ github.run_time }}
+          🤖 執行者：GitHub Actions
+          
+          ## 📊 本次更新內容
+          - 下載最新的政府辦公日曆表資料
+          - 資料來源：[政府資料開放平臺](https://data.gov.tw/dataset/14718)
+          
+          ## 📁 檔案位置
+          更新的資料檔案位於 `data/` 目錄中。
+        draft: false
+        prerelease: false 
