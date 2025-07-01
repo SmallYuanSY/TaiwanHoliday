@@ -51,6 +51,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/*.csv
+        git add data/*.yml
         git add crawler.log
         git commit -m "自動更新台灣政府辦公日曆表資料 - $(date +'%Y-%m-%d %H:%M:%S')"
         git push
