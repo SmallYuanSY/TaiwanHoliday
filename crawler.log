@@ -1037,3 +1037,65 @@
 2026-04-01 00:37:50,366 - INFO -   - taiwan_holidays_2024.yml (8565 bytes)
 2026-04-01 00:37:50,366 - INFO -   - taiwan_holidays_2025.yml (8568 bytes)
 2026-04-01 00:37:50,366 - INFO -   - taiwan_holidays_2026.yml (8894 bytes)
+2026-05-01 00:47:53,837 - INFO - 🚀 開始執行台灣政府辦公日曆表爬蟲 - 維護模式（當前年+下一年）
+2026-05-01 00:47:54,977 - INFO - 找到 2019 年資料: 108年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,977 - INFO - 找到 2020 年資料: 109年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,977 - INFO - 找到 2022 年資料: 111年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,977 - INFO - 找到 2023 年資料: 112年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,977 - INFO - 找到 2024 年資料: 113年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,977 - INFO - 找到 2025 年資料: 114年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,978 - INFO - 找到 2026 年資料: 115年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,978 - INFO - 找到可用年份及連結: [2019, 2020, 2022, 2023, 2024, 2025, 2026]
+2026-05-01 00:47:54,979 - INFO - 目標年份: [2026, 2027]
+2026-05-01 00:47:54,979 - INFO - 連結驗證成功: 115年中華民國政府行政機關辦公日曆表.csv
+2026-05-01 00:47:54,979 - INFO - 下載 2026 年資料: https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv
+2026-05-01 00:47:56,738 - INFO - 成功下載並儲存: data/taiwan_holidays_2026.csv
+2026-05-01 00:47:56,738 - INFO - 2026 年資料筆數: 365
+2026-05-01 00:47:56,739 - WARNING - 2027 年的資料尚未在網站上提供
+2026-05-01 00:47:56,739 - INFO - 爬蟲執行完成，成功下載 1 個年份的資料
+2026-05-01 00:47:56,769 - INFO - 成功轉換: data/taiwan_holidays_2021.csv -> data/taiwan_holidays_2021.yml
+2026-05-01 00:47:56,769 - INFO - 放假日數量: 116
+2026-05-01 00:47:56,769 - INFO - 特殊工作日數量: 2
+2026-05-01 00:47:56,782 - INFO - 成功轉換: data/taiwan_holidays_2019.csv -> data/taiwan_holidays_2019.yml
+2026-05-01 00:47:56,782 - INFO - 放假日數量: 115
+2026-05-01 00:47:56,782 - INFO - 特殊工作日數量: 3
+2026-05-01 00:47:56,795 - INFO - 成功轉換: data/taiwan_holidays_2023.csv -> data/taiwan_holidays_2023.yml
+2026-05-01 00:47:56,795 - INFO - 放假日數量: 116
+2026-05-01 00:47:56,795 - INFO - 特殊工作日數量: 6
+2026-05-01 00:47:56,808 - INFO - 成功轉換: data/taiwan_holidays_2022.csv -> data/taiwan_holidays_2022.yml
+2026-05-01 00:47:56,808 - INFO - 放假日數量: 115
+2026-05-01 00:47:56,808 - INFO - 特殊工作日數量: 1
+2026-05-01 00:47:56,821 - INFO - 成功轉換: data/taiwan_holidays_2020.csv -> data/taiwan_holidays_2020.yml
+2026-05-01 00:47:56,821 - INFO - 放假日數量: 115
+2026-05-01 00:47:56,821 - INFO - 特殊工作日數量: 3
+2026-05-01 00:47:56,834 - INFO - 成功轉換: data/taiwan_holidays_2025.csv -> data/taiwan_holidays_2025.yml
+2026-05-01 00:47:56,834 - INFO - 放假日數量: 115
+2026-05-01 00:47:56,834 - INFO - 特殊工作日數量: 1
+2026-05-01 00:47:56,847 - INFO - 成功轉換: data/taiwan_holidays_2026.csv -> data/taiwan_holidays_2026.yml
+2026-05-01 00:47:56,847 - INFO - 放假日數量: 120
+2026-05-01 00:47:56,847 - INFO - 特殊工作日數量: 0
+2026-05-01 00:47:56,860 - INFO - 成功轉換: data/taiwan_holidays_2024.csv -> data/taiwan_holidays_2024.yml
+2026-05-01 00:47:56,860 - INFO - 放假日數量: 115
+2026-05-01 00:47:56,860 - INFO - 特殊工作日數量: 1
+2026-05-01 00:47:56,860 - INFO - 轉換完成: 成功 8/8 個檔案
+2026-05-01 00:47:57,055 - INFO - 建立摘要檔案: data/summary.yml
+2026-05-01 00:47:57,056 - INFO - 已自動轉換為 YAML 格式
+2026-05-01 00:47:57,056 - INFO - 已下載的 CSV 檔案:
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2019.csv (6432 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2020.csv (6482 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2021.csv (6453 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2022.csv (6390 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2023.csv (6519 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2024.csv (6419 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2025.csv (6396 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2026.csv (6499 bytes)
+2026-05-01 00:47:57,056 - INFO - 已轉換的 YAML 檔案:
+2026-05-01 00:47:57,056 - INFO -   - summary.yml (906 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2019.yml (8723 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2020.yml (8720 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2021.yml (8708 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2022.yml (8562 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2023.yml (9021 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2024.yml (8565 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2025.yml (8568 bytes)
+2026-05-01 00:47:57,056 - INFO -   - taiwan_holidays_2026.yml (8894 bytes)
