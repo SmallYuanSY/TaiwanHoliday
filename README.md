@@ -10,6 +10,40 @@
 - 資料儲存為 CSV 和 Excel 格式
 - GitHub Actions 自動化部署
 
+## 🔌 當資料源使用（不用自己跑爬蟲）
+
+不想碰政府的 `0 / 2` 原始格式？直接抓本專案清理好的資料就好 —— 每月自動更新，不用 clone、不用跑任何程式。
+
+**Raw URL（年份自行替換）：**
+
+```
+# 乾淨版（推薦）：YAML，holiday 1=放假、0=補班工作日，附節日名
+https://raw.githubusercontent.com/SmallYuanSY/TaiwanHoliday/main/data/taiwan_holidays_2026.yml
+# 原始版：CSV（保留政府原欄位，是否放假 0=上班 / 2=放假）
+https://raw.githubusercontent.com/SmallYuanSY/TaiwanHoliday/main/data/taiwan_holidays_2026.csv
+```
+
+**Python 範例 —— 判斷某天是否放假：**
+
+```python
+import urllib.request, yaml  # pip install pyyaml
+
+def load_year(year):
+    url = f"https://raw.githubusercontent.com/SmallYuanSY/TaiwanHoliday/main/data/taiwan_holidays_{year}.yml"
+    return {h["date"]: h for h in yaml.safe_load(urllib.request.urlopen(url).read())["holidays"]}
+
+cal = load_year(2026)
+def is_day_off(date):              # 例："2026-10-10"
+    h = cal.get(date)
+    return bool(h and h["holiday"] == 1)
+
+print(is_day_off("2026-10-10"))    # True
+print(cal["2026-10-10"]["name"])   # 國慶日
+```
+
+> 補班、以及「國定假日剛好落在週末」的重疊都已正確處理（補班週六＝工作日、節日落週末保留節日名而非例假日），你不用自己重寫這段邏輯。
+
+
 ## 安裝說明
 
 1. 複製專案到本機：
